@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrolling*/
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+     background: transparent;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+#navbar{
+    background: #222;
+}
+
+.logo{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* menu*/
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin: 0 15px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+/* hover*/
+.nav-links a:hover{
+    color:yellow;
+}
+/* ACTIVE LINK*/
+ .nav-links a.active {
+    border-bottom: 2px solid yellow;
+ }
+ /*hamburger*/
+ .menu-toggler{
+    display: none;
+    font-size: 24px;
+    color:darkgreen;
+    cursor: pointer;
+ }
+ /*sections*/
+ .section{
+    min-height: 100vh;
+    padding:80px,20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .section h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+ }
+.hero{
+    background: linear-gradient(to right,  purple, blue);
+    color: white;
+}
+/*animatios*/
+.fade-in{
+    opacity:1;
+    transform: translateY(40px);
+    transition: 0.8s ease;
+    
+}
+#fade{
+    color:ivory;
+    font-size:xx-large;
+}
+.fade-in.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+/*responsive*/
+@media (max-width:768px){
+    .menu-toggler{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #333;
+        width: 200px;
+        flex-direction: column;
+        display:none;
+    }
+    .nav-links.active{
+        display:flex;
+    }
+    .nav-links li{
+        margin:15px;
+    }
+}
+#about{
+    background:darkcyan;
+ color:azure;
+ font-size:large;
+}
+
+#services{
+    background: #6c63FF;
+ color:azure;
+ 
+ font-size: large;
+}
+
+#contact{
+    background:cadetblue;
+    color:azure;
+ font-size:large;
+}

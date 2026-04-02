@@ -8,13 +8,13 @@ This project is a fully responsive landing page designed using HTML, CSS, and Ja
 
 # ✨ Features
 
-- 📍 Fixed navigation bar (always visible)
-- 🎨 Navbar color changes on scroll
-- 🖱️ Hover effects on menu items
-- ☰ Hamburger menu for mobile view
-- 🌊 Smooth scrolling between sections
-- ✨ Scroll-based fade-in animations
-- 🎯 Active link highlighting
+-  Fixed navigation bar (always visible)
+-  Navbar color changes on scroll
+-  Hover effects on menu items
+-  Hamburger menu for mobile view ☰
+-  Smooth scrolling between sections
+-  Scroll-based fade-in animations
+-  Active link highlighting
 
 ---
 # 🛠️ Tech Stack
@@ -29,9 +29,9 @@ This project is a fully responsive landing page designed using HTML, CSS, and Ja
 
 The website is fully responsive and works smoothly on:
 
-- Desktop 💻
-- Tablet 📱
-- Mobile 📱
+- Desktop
+- Tablet 
+- Mobile 
 
 ---
 
